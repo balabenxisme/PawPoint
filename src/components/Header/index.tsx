@@ -1,10 +1,15 @@
 "use client";
+import {
+  useEffect,
+  useState,
+} from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
+
 import menuData from "./menuData";
+import ThemeToggler from "./ThemeToggler";
 
 const Header = () => {
   // Navbar toggle
@@ -49,7 +54,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-30 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -57,14 +62,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/Pow/48287804-4272-46E7-82EA-61671AE67B83 - แก้ไขแล้ว.jpg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/Pow/48287804-4272-46E7-82EA-61671AE67B83 - แก้ไขแล้ว.jpg"
                   alt="logo"
                   width={140}
                   height={30}

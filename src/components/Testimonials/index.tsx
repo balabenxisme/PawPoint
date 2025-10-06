@@ -1,33 +1,31 @@
 import { Testimonial } from "@/types/testimonial";
+
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "คุณมิ้นท์ ",
+    designation: "เจ้าของสุนัขพันธุ์ชิสุ",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "ตั้งแต่ใช้งาน Paw Point ฉันไม่ต้องกังวลว่าน้องหมาจะหลุดออกไปไหนอีกต่อไป ระบบ GPS แจ้งเตือนทันทีที่ออกนอกเขต สบายใจมากค่ะ",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+        name: "คุณเจมส์",
+    designation: "เจ้าของแมวสก็อตติชโฟลด์",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "ฟังก์ชัน PawCam ดีมากครับ เวลาไปทำงานก็ยังเปิดดูแมวได้แบบเรียลไทม์ รู้สึกอุ่นใจเหมือนอยู่บ้าน ตลอดเวลากับน้องแมว",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+        name: "คุณมิ้นท์ ",
+    designation: "เจ้าของสุนัขพันธุ์โกลเด้น",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "ปลอกคอใส่ง่ายและปลอดภัย ไม่ระคายเคืองน้องหมาเลยค่ะ แถมแชร์ตำแหน่งให้แฟนดูได้ด้วย ประทับใจสุด ๆ ชอบมากๆค่ะ",
     star: 5,
   },
 ];
@@ -38,7 +36,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Our users share how Paw Point helps them stay connected with their pets anytime, anywhere."
           center
         />
 

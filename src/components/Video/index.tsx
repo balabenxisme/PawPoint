@@ -1,11 +1,14 @@
 "use client";
 
-import VideoModal from "@/components/video-modal";
-import Image from "next/image";
 import { useState } from "react";
+
+import Image from "next/image";
+
+import VideoModal from "@/components/video-modal";
+
 import SectionTitle from "../Common/SectionTitle";
 
-export default function Video() {
+export default function Video () {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -14,7 +17,13 @@ export default function Video() {
         <div className="container">
           <SectionTitle
             title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph=" Our team is always here
+            to support you. Whether
+            you need guidance,
+            technical assistance, or
+            have questions about
+            our features, we’re ready
+            to help anytime."
             center
             mb="80px"
           />
