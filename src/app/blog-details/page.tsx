@@ -1,5 +1,3 @@
-import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
 
 import { Metadata } from "next";
@@ -320,9 +318,6 @@ const BlogDetailsPage = () => {
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
                       </div>
                     </div>
                     <div className="mb-5">
@@ -330,7 +325,6 @@ const BlogDetailsPage = () => {
                         Share this post :
                       </h5>
                       <div className="flex items-center sm:justify-end">
-                        <SharePost />
                       </div>
                     </div>
                   </div>
